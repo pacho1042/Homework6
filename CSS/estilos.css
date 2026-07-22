@@ -1,0 +1,15 @@
+#caja {
+  width: 200px;
+  height: 200px;
+  background-color: #3498db; /* color inicial */
+
+  /* CLAVE: la transición es lo que hace el cambio gradual.
+     Sin esta línea, el color cambiaría de golpe. */
+  transition: background-color 1.5s ease;
+}
+
+#btnColor {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

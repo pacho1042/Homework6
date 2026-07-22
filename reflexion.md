@@ -272,3 +272,54 @@ Rta: no se presentaron errores
 [Explica tu proceso]
 
 Rta: no se presentaron errores
+
+
+## Análisis crítico
+
+### Problemas encontrados:
+Rta: no se encontraron problemas a la solución por parte de AI
+
+### Alucinaciones o errores de la AI:
+[¿La AI inventó algo? ¿Dio información incorrecta?]
+Rta: más que inventarse propuso una solución un poco más practica en el recorrido
+del array de colores, sin el uso de condicionales.
+
+### Decisiones que tomé:
+[¿Qué cambiaste tú? ¿Por qué?]
+Rta: el cambio que realice a la respuesta fue hacer el uso de los colores aletorios
+con el objetivo de que no se limite a un listado predefinido.
+
+
+## Reflexión final
+
+### Herramienta de AI usada:
+Claude
+
+### Cantidad de prompts necesarios:
+2
+
+### ¿Qué mejoró al iterar los prompts?
+Mejoro la explicación para recorrer el array de los colores predefinidos
+
+### ¿Qué aprendiste sobre cómo formular prompts?
+Que la IA responde especificamente, cuando más clara es la solicitud.
+No se permite tantas alucionaciones por parte de ella si se aclara y detalla muy bien cada solicitud
+
+### ¿Hubo algo que la AI no pudo resolver?
+La IA si pudo resolver lo solicitado
+
+### ¿La AI cometió algún error o "alucinó"?
+No cometio errores
+
+### ¿Qué decisiones tomaste tú como desarrollador?
+Al presentarse dos opciones para el manejo de los colores decidí seleccionar el código más adecuado a mi gusto.
+
+### Conceptos técnicos aprendidos:
+
+**Tokens:**
+- ¿Qué son? Es la unidad minima de texto que puede procesar una herramienta IA
+- ¿Cómo afectan el uso de AI? Afectan en las limitantes por cuestiones de costos, por ejemplo puede que una IA, solo permita en el plan free procesar 10 tokens, por ello si tú dependencia al asistente es elevada, dichos costos se elevaran para poder obtener los resultados esperados.
+
+**Rate Limiting:**
+- ¿Qué es? Es el limite de tokens que un AI puede recibir de tú parte según el plan en al cual te encuentres
+- ¿Por qué existe? existe porque dichos asistentes (IA), usan recursos de infraestructura limitados, por ello y por la gran demanda a nivel mundial deben filtrar su disponibilidad con el objetivo de garantizar su uso a nivel global, y priviligiar a quienes acceden a sus planes pagos.

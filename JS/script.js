@@ -8,10 +8,8 @@ let indiceActual = 0;
 
 // 3. Escuchamos el evento click en el botón
 btnColor.addEventListener("click", () => {
-  // Avanzamos al siguiente color de la lista (y volvemos al inicio si se acaba)
-  indiceActual = (indiceActual + 1) % colores.length;
-
-  // Solo cambiamos la propiedad de color;
-  // el CSS "transition" se encarga de que sea gradual
-  caja.style.backgroundColor = colores[indiceActual];
+  const r = Math.floor(Math.random() * 256);
+  const g = Math.floor(Math.random() * 256);
+  const b = Math.floor(Math.random() * 256);
+  caja.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 });

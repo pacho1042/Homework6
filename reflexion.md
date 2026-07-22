@@ -109,3 +109,8 @@ btnColor.addEventListener("click", () => {
 
 - ¿Hubo algo confuso o incorrecto?
   Rta: si la manera de recorrer el array de los colores, y cuando se termina vuelve al inicio.
+
+- ¿Hay comentarios explicativos?
+  Rta: si existen comentarios en el codigo que permiten entender el proceso que se realiza
+- ¿El formato de la respuesta es útil?
+  Rta: el formato si es util para lo que se solicito.
